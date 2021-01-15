@@ -1,0 +1,16 @@
+# Lightdm sources .xsessionrc
+# Add env variables here
+
+# source the system profile
+# if [ -f /etc/profile ]; then
+#     . /etc/profile
+# fi
+
+# QT5 qt5ct
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# QT5 scaling
+# Uncomment for hidpi display
+# export QT_AUTO_SCREEN_SCALE_FACTOR=1
+# export QT_SCREEN_SCALE_FACTORS=2
+
