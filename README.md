@@ -114,6 +114,13 @@ sudo apt install firefox-esr keepassxc atril ristretto libreoffice-gtk3 \
 libreoffice-calc libreoffice-writer
 ```
 
+Add NetworkManager and openvpn:
+
+```bash
+sudo apt install network-manager-openvpn network-manager-gnome \
+network-manager-openvpn-gnome
+```
+
 Add a few nice icon themes to choose from:
 
 ```bash
