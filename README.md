@@ -63,7 +63,7 @@ Upgrade your system:
 sudo apt update && apt upgrade
 ```
 
-Reboot to load new kernel.
+Reboot to load updated kernel and services.
 
 ## Quick install Xfce and required packages
 
