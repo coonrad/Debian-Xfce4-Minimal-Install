@@ -4,8 +4,6 @@
 
 The standard Debian installation process for Xfce desktop includes additional packages that may not be necessary for many users. This guide will allow you to install a minimal Xfce desktop, adding additional packages as needed.  
 
-Debian stable (buster) currently includes Xfce 4.12. If you would like to install the latest verson 4.16 (recommended), you will need to update your sources to bullseye or sid (instructions below.)
-
 ## Requirements
 
 * A debian installation (hardware or virtual machine) with appropriate video drivers.
@@ -18,9 +16,11 @@ Debian stable (buster) currently includes Xfce 4.12. If you would like to instal
 
 ## ISO for Installing Debian
 
-* [debian-10.7.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.7.0-amd64-netinst.iso)
+* [debian-11.2.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso)
 
-* [Installing Debian 10.7](https://www.debian.org/releases/buster/debian-installer/)
+* [Installing Debian 11.2](https://www.debian.org/releases/bullseye/debian-installer/)  
+
+* [Debian “bullseye” Release Information](https://www.debian.org/releases/bullseye/)
 
 ## Installing Debian without a desktop environment
 
@@ -30,22 +30,24 @@ As you progress through the debian installation, towards the end you will be pre
 
 Uncheck **Debian desktop environment** to install a minimal debian system.
 
-## Update sources to bullseye or sid
+## Update sources to testing or unstable (optional)
 
-Updates sources to `bullseye`. The current testing branch.
+Updates sources to `bookworm`. The current testing branch.
 
 `sudo nano /etc/apt/sources`:
 
 ```bash
-deb http://deb.debian.org/debian/ bullseye main
-deb-src http://deb.debian.org/debian/ bullseye main
+deb http://deb.debian.org/debian bookworm main
+deb-src http://deb.debian.org/debian bookworm main
 
-# deb http://security.debian.org/debian-security bullseye/updates main
-# deb-src http://security.debian.org/debian-security bullseye/updates main
+deb http://deb.debian.org/debian-security/ bookworm-security main
+deb-src http://deb.debian.org/debian-security/ bookworm-security main
 
-# bullseye-updates, previously known as 'volatile'
-deb http://deb.debian.org/debian/ bullseye-updates main
-deb-src http://deb.debian.org/debian/ bullseye-updates main
+deb http://deb.debian.org/debian bookworm-updates main
+deb-src http://deb.debian.org/debian bookworm-updates main
+
+# deb http://deb.debian.org/debian bookworm-backports main
+# deb-src http://deb.debian.org/debian bookworm-backports main
 ```
 
 Add `contrib non-free` after each `main` entry if you need special drivers or additional firmware.
