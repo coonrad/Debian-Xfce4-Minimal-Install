@@ -2,7 +2,7 @@
 
 ## Debian Xfce4 Minimal Install Guide
 
-The standard Debian installation process for Xfce desktop includes additional packages that may not be necessary for many users. This guide will allow you to install a minimal Xfce desktop, adding additional packages as needed.  
+The standard Debian installation process for Xfce desktop includes additional packages that may not be necessary for many users. This guide will allow you to install a minimal Xfce desktop, adding additional packages as needed.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ The standard Debian installation process for Xfce desktop includes additional pa
 
 * [debian-11.2.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso)
 
-* [Installing Debian 11.2](https://www.debian.org/releases/bullseye/debian-installer/)  
+* [Installing Debian 11.2](https://www.debian.org/releases/bullseye/debian-installer/)
 
 * [Debian “bullseye” Release Information](https://www.debian.org/releases/bullseye/)
 
@@ -32,7 +32,7 @@ Uncheck **Debian desktop environment** to install a minimal debian system.
 
 ## Update sources to testing or unstable (optional)
 
-Updates sources to `bookworm`. The current testing branch.
+Update sources to `bookworm`. The current testing branch.
 
 `sudo nano /etc/apt/sources`:
 
