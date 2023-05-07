@@ -105,7 +105,11 @@ apt install \
     xfwm4
 ```
 
-From this point you should have a working Xfce desktop environment. You can reboot, and add only what you need going forward.
+From this point you should have a working Xfce desktop environment. You can reboot, and add only what you need going forward. If you plan to start xfce4 without lightdm, you may need to install xinit.
+
+```bash
+sudo apt install xinit
+```
 
 ## Additional packages and configuration
 
