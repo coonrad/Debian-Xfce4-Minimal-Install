@@ -32,7 +32,7 @@ Uncheck **Debian desktop environment** to install a minimal debian system.
 
 ## Update sources to testing or unstable (optional)
 
-Update sources to `bookworm`. The current testing branch.
+Update sources to `trixie`. The current testing branch.
 
 `sudo nano /etc/apt/sources`:
 
