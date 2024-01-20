@@ -16,11 +16,11 @@ The standard Debian installation process for Xfce desktop includes additional pa
 
 ## ISO for Installing Debian
 
-* [debian-11.2.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.2.0-amd64-netinst.iso)
+* [debian-12.4.0-amd64-netinst.iso](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.4.0-amd64-netinst.iso)
 
-* [Installing Debian 11.2](https://www.debian.org/releases/bullseye/debian-installer/)
+* [Installing Debian 12](https://www.debian.org/releases/bookworm/debian-installer/)
 
-* [Debian “bullseye” Release Information](https://www.debian.org/releases/bullseye/)
+* [Debian “bookworm” Release Information](https://www.debian.org/releases/bookworm/)
 
 ## Installing Debian without a desktop environment
 
