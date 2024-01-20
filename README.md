@@ -38,13 +38,13 @@ Update sources to `trixie`. The current testing branch.
 
 ```bash
 deb http://deb.debian.org/debian/ trixie main
-# deb-src http://deb.debian.org/debian/ trixie main
+#deb-src http://deb.debian.org/debian/ trixie main
 
 deb http://security.debian.org/debian-security trixie-security main
-# deb-src http://security.debian.org/debian-security trixie-security main
+#deb-src http://security.debian.org/debian-security trixie-security main
 
 deb http://deb.debian.org/debian/ trixie-updates main
-# deb-src http://deb.debian.org/debian/ trixie-updates main
+#deb-src http://deb.debian.org/debian/ trixie-updates main
 ```
 
 Add `contrib non-free-firmware` after each `main` entry if you need special drivers or additional firmware.
