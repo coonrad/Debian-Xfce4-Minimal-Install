@@ -26,7 +26,7 @@ The standard Debian installation process for Xfce desktop includes additional pa
 
 As you progress through the debian installation, towards the end you will be presented with the following screen for Software selection:
 
-![debian-installer.jpg](debian-installer.jpg)
+![debian-installer.jpg](debian12-installer.jpg)
 
 Uncheck **Debian desktop environment** to install a minimal debian system.
 
