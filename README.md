@@ -100,6 +100,9 @@ apt install \
     xfconf \
     xfdesktop4 \
     xfwm4
+
+# laptop users may want to add
+# xfce4-battery-plugin
 ```
 
 From this point you should have a working Xfce desktop environment. You can reboot, and add only what you need going forward. If you plan to start xfce4 without lightdm, you may need to install xinit.
